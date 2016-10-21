@@ -18,9 +18,23 @@ html {
   box-sizing: inherit;
 }
 
-header {
+.masthead {
+  text-align: center;
   background-color: #423ca3;
+}
+
+.logo {
+  text-align: center;
+}
+
+h1 {
   color: #fff;
+  font-weight: bold;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
 }
 
 li {
@@ -29,10 +43,11 @@ li {
 }
 
 a:hover {
-  color: #fff;
-  background-color: #423ca3;
+  color: #423ca3;
+  background-color: #fff;
+  border-radius: .5em;
 }
 
-.img-flex {
-  width: 25%;
+@media only screen and (min-width: 60) {
+
 }
