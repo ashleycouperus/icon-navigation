@@ -37,6 +37,10 @@ nav a {
   text-decoration: none;
 }
 
+.nav {
+  text-align: center;
+}
+
 li {
   background-color: #15114c;
   border-radius: 10px;
@@ -50,4 +54,13 @@ a:hover {
 
 @media only screen and (min-width: 60) {
 
+  .nav {
+    display: inline-block;
+    text-align: right;
+  }
+
+  .logo {
+    display: inline-block;
+    text-align: left;
+  }
 }
